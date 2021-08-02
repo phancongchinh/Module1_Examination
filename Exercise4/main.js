@@ -1,4 +1,4 @@
-function main () {
+function main() {
     let objAnimal1 = new Animal();
 
     objAnimal1.setName("Elephant");
@@ -7,7 +7,7 @@ function main () {
 
     objAnimal1.toString();
 
-    let objAnimal2 = new Animal("someAnimal","someWeight");
+    let objAnimal2 = new Animal("someAnimal", "someWeight");
 
     objAnimal2.setName("Mouse");
 }
